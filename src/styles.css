@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #c80768; */
+    background: linear-gradient(to right, #f93bac, #5233e8);
+    padding: 20px;
+    height: 80px;
+  }
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+  }
+  
+.nav-item{
+    margin-right: 20px;
+    }
